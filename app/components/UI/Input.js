@@ -1,10 +1,10 @@
 import {StyleSheet, TextInput} from 'react-native';
 import React from "react";
 
-export default function Input({placeholder}) {
+export default function Input({placeholder, value, onChange}) {
 
     return (
-        <TextInput placeholder={placeholder} style={styles.container}>
+        <TextInput placeholder={placeholder} style={styles.container} value={value} onChangeText={e=>onChange(e)}>
 
         </TextInput>
     );

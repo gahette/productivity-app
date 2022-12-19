@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         borderRadius: 14,
         width: "100%",
         alignItems: "center",
+        marginTop: 32,
     },
     title: {
         color: "white",
